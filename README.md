@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35227008/README.md)
 # M4 Cosmology Analysis
 
 Reproducible numerical pipeline for the paper
@@ -13,16 +12,16 @@ Confrontation of three dark-energy realizations with the official
 
 | Model | chi2 (BAO+CC) | Notes |
 |---|---|---|
-| LambdaCDM | 24.93 | H0=69.1, Om=0.298, rd=146.8 |
-| Tracker (rho_DE ~ H) | 29.85 | zero free DE parameters; Delta chi2 = +4.9 |
-| CPL (w0, wa) + Om prior | 23.20 | w0=-0.88+-0.11, wa=+0.16+-0.32 |
+| LambdaCDM | 25.71 | H0=68.8, Om=0.298, rd=147.6 (BAO 10.27 + CC 15.44) |
+| Tracker (rho_DE ~ H) | 31.04 | zero free DE parameters; Delta chi2 = +5.3 |
+| CPL (w0, wa) + Om prior | 23.81 | w0=-0.78+-0.13, wa=-0.61+-0.47 |
 
 Key results:
-- Tracker effective equation of state: **w0_eff = -0.79**, **wa_eff = +0.35** --
+- Tracker effective equation of state: **w0_eff = -0.80**, **wa_eff = +0.35** —
   opposite in sign to the DESI+CMB+SN preference (wa = -0.86 +- 0.22).
 - On BAO+CC data alone the preference for evolving dark energy is
-  statistically insignificant (Delta chi2 = -1.7 for two CPL parameters;
-  Delta BIC = +5.8 vs LambdaCDM).
+  statistically insignificant (Delta chi2 = -1.9 for two CPL parameters;
+  Delta BIC = +5.7 vs LambdaCDM).
 - The discriminating observable for the rho ~ H response class is the
   **sign of wa** on DESI DR3 / Euclid.
 

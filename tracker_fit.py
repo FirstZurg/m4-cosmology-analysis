@@ -417,6 +417,7 @@ def main():
                                         [73.0, 0.24, 148.0, -0.8, -0.5]])
     err, _ = hessian_errors(r3, data, cc, "cpl")
     chi2_c = report_fit("CPL+prior", "cpl", r3, data, cc)
+    print("  CPL errors: w0=%.2f wa=%.2f" % (err[3], err[4]))
     n_data = len(vals) + (0 if cc is None else len(cc))
     print("\nModel comparison:")
     for name, x2, k in (("LambdaCDM", chi2_l, 3), ("Tracker  ", chi2_t, 2),
