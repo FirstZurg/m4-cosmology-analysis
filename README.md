@@ -53,9 +53,8 @@ writes `fig_wz.png`.
 
 ## Citation
 
-If you use this pipeline, please cite the companion preprint (Zenodo DOI,
-to be added) and the DESI DR2 BAO release. The cosmic chronometer
-compilation follows Magana et al. 2018 (arXiv:1802.01505).
+If you use this pipeline, please cite the companion preprint, https://doi.org/10.5281/zenodo.24434904, and the DESI DR2 BAO release. 
+The cosmic chronometer compilation follows Magana et al. 2018 (arXiv:1802.01505).
 
 ## License
 
